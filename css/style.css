@@ -1,0 +1,14 @@
+﻿.headerbg {
+	/* Style for "Header Bg" */
+	height: 345px;
+	width: 1920px;
+    background: url("../img/Header_Bg.jpg") no-repeat center top;	 
+    background-color: #212429;}  
+	
+
+body {
+	color: #464646;
+    font-family: 'Hind', Arial, sans-serif;
+    font-size: 15px;
+}
+
