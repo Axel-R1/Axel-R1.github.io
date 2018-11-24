@@ -1,21 +1,75 @@
 ﻿<!DOCTYPE html>
+
 <html lang="ru">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-	<title>Главная</title>
-	<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-    <div class="headerbg">
-	</div>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	
+    <title>Главная</title>
+	
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+	
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    
 </head>
-<body>
+
+    <body>
+
+	<div class="headerbg">
+
+	<section class="imgmove">
+		  			
+  		<div class="imgmove__slides imgmove_topimage_dying">
 		
+		    <img src="img/Placeholder.jpg" class="imgmove__slides-image">
+		</div>
+
+		<div class="imgmove__slides imgmove_topimage_dying">
+		    <img src="img/Placeholder1.jpg" class="imgmove__slides-image">
+		</div>
+
+		<div class="imgmove__slides imgmove_topimage_dying">
+		    <img src="img/Placeholder2.jpg" class="imgmove__slides-image">
+		</div>
+
+		  <!-- Next and previous buttons -->
+		<a class="imgmove__button-pref" onclick="plusSlides(-1)"><img src="img/Top.png"></a>
+
+		<a class="imgmove__button-next" onclick="plusSlides(1)"><img src="img/Down.png"></a>
+		<!-- The dots/circles -->
+		
+			<div class="imgmove__radiobutton">
+			
+				  <span class="imgmove__radiobutton-point" onclick="currentSlide(1)"></span> 
+			
+				  <span class="imgmove__radiobutton-point" onclick="currentSlide(2)"></span> 
+			
+				  <span class="imgmove__radiobutton-point" onclick="currentSlide(3)"></span> 
+
+			</div>
+		
+	</section>	
+	
+    </div>
+
+	<div class="background">
+ 
+	</div>
 
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+
 <script type="text/javascript" src="js/custom.js"></script>
 
+<script type="text/javascript" src="js/func.js"></script>
+
+
 </body>
+
 </html>
